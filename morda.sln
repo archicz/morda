@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "morda", "morda.vcxproj", "{9C723167-0C27-4387-8414-93805AF20EA1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libspeexdsp", "speexdsp-SpeexDSP-1.2.0\win32\VS2008\libspeexdsp\libspeexdsp.vcxproj", "{03207781-0D1C-4DB3-A71D-45C608F28DBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release_Dynamic_SSE|x64 = Release_Dynamic_SSE|x64
+		Release_Dynamic_SSE|x86 = Release_Dynamic_SSE|x86
+		Release_Static_SSE|x64 = Release_Static_SSE|x64
+		Release_Static_SSE|x86 = Release_Static_SSE|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C723167-0C27-4387-8414-93805AF20EA1}.Debug|x64.ActiveCfg = Debug|x64
+		{9C723167-0C27-4387-8414-93805AF20EA1}.Debug|x64.Build.0 = Debug|x64
+		{9C723167-0C27-4387-8414-93805AF20EA1}.Debug|x86.ActiveCfg = Debug|Win32
+		{9C723167-0C27-4387-8414-93805AF20EA1}.Debug|x86.Build.0 = Debug|Win32
+		{9C723167-0C27-4387-8414-93805AF20EA1}.Release_Dynamic_SSE|x64.ActiveCfg = Release|x64
+		{9C723167-0C27-4387-8414-93805AF20EA1}.Release_Dynamic_SSE|x64.Build.0 = Release|x64
+		{9C723167-0C27-4387-8414-93805AF20EA1}.Release_Dynamic_SSE|x86.ActiveCfg = Release|Win32
+		{9C723167-0C27-4387-8414-93805AF20EA1}.Release_Dynamic_SSE|x86.Build.0 = Release|Win32
+		{9C723167-0C27-4387-8414-93805AF20EA1}.Release_Static_SSE|x64.ActiveCfg = Release|x64
+		{9C723167-0C27-4387-8414-93805AF20EA1}.Release_Static_SSE|x64.Build.0 = Release|x64
+		{9C723167-0C27-4387-8414-93805AF20EA1}.Release_Static_SSE|x86.ActiveCfg = Release|Win32
+		{9C723167-0C27-4387-8414-93805AF20EA1}.Release_Static_SSE|x86.Build.0 = Release|Win32
+		{9C723167-0C27-4387-8414-93805AF20EA1}.Release|x64.ActiveCfg = Release|x64
+		{9C723167-0C27-4387-8414-93805AF20EA1}.Release|x64.Build.0 = Release|x64
+		{9C723167-0C27-4387-8414-93805AF20EA1}.Release|x86.ActiveCfg = Release|Win32
+		{9C723167-0C27-4387-8414-93805AF20EA1}.Release|x86.Build.0 = Release|Win32
+		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Debug|x64.ActiveCfg = Debug|Win32
+		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Debug|x86.ActiveCfg = Debug|Win32
+		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Debug|x86.Build.0 = Debug|Win32
+		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Release_Dynamic_SSE|x64.ActiveCfg = Release_Dynamic_SSE|Win32
+		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Release_Dynamic_SSE|x86.ActiveCfg = Release_Dynamic_SSE|Win32
+		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Release_Dynamic_SSE|x86.Build.0 = Release_Dynamic_SSE|Win32
+		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Release_Static_SSE|x64.ActiveCfg = Release_Static_SSE|Win32
+		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Release_Static_SSE|x86.ActiveCfg = Release_Static_SSE|Win32
+		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Release_Static_SSE|x86.Build.0 = Release_Static_SSE|Win32
+		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Release|x64.ActiveCfg = Release|Win32
+		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Release|x86.ActiveCfg = Release|Win32
+		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AD2BF00-DE0A-4E08-9854-B5B2564CA663}
+	EndGlobalSection
+EndGlobal
